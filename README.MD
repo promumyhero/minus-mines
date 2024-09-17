@@ -1,4 +1,4 @@
-# Slimy Masks Cross
+# Minus Mines
 
 Slimy Masks Cross adalah proyek yang bertujuan untuk mencatat setiap transaksi deals yang terjadi. Proyek ini membantu dalam mengelola dan memantau semua transaksi dengan cara yang efisien dan terorganisir.
 
@@ -12,7 +12,7 @@ Slimy Masks Cross adalah proyek yang bertujuan untuk mencatat setiap transaksi d
 
 1. Clone repositori ini:
   ```sh
-  git clone https://github.com/username/slimy-masks-cross.git
+  git clone https://github.com/username/minus-mines.git
   ```
 2. Masuk ke direktori proyek:
   ```sh
