@@ -80,7 +80,7 @@ export const CompanyList = ({ children }: React.PropsWithChildren) => {
         }}
       >
         <Table.Column<Company>
-          dataIndex="name"
+          key="name"
           title="Company Title"
           defaultFilteredValue={getDefaultFilter('id', filters)}
           filterIcon={<SearchOutlined />}
@@ -89,7 +89,7 @@ export const CompanyList = ({ children }: React.PropsWithChildren) => {
               <Input placeholder="Search Company" />
             </FilterDropdown>
           )}
-          render={(value, record) => (
+          render={(record) => (
             <Space>
               <CustomAvatar shape="square" name={record.name} src={record.avatarUrl} />
               <Text style={{ whiteSpace: 'nowrap' }}>
@@ -98,6 +98,7 @@ export const CompanyList = ({ children }: React.PropsWithChildren) => {
             </Space>
           )}
         />
+        
         <Table.Column<Company>
           dataIndex="totalRevenue"
           title="Open deals amount"
